@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e680ced10561eb94a8e48412f8aa3672, type: 3}
+  m_Name: Wolf
+  m_EditorClassIdentifier: 
+  ageRange:
+    min: 60
+    max: 70
+  staminasRange:
+    min: 30
+    max: 40
+  movingSpeedRange:
+    min: 6
+    max: 11
+  runningSpeedRange:
+    min: 12
+    max: 16
+  foodRange:
+    min: 80
+    max: 100
+  waterRange:
+    min: 80
+    max: 100
+  viewRadius:
+    min: 5
+    max: 10
+  mutationChance: 0.2
+  maxMutationAmount: 0.3
+  size: 1
+  mainMaterialColor: {r: 0.14901961, g: 0.15294118, b: 0.13333334, a: 1}
+  reproductiveUrge: 100
